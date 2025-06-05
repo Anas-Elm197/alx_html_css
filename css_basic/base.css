@@ -198,3 +198,11 @@ h6 {
   	float: none;
   }
 }
+.forarticle p{ 
+	background-color: #bbb;
+}
+.arabicW{
+	text-align: right;
+	margin: 50px;
+	font-size: larger;
+}
