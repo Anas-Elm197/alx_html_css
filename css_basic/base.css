@@ -199,10 +199,25 @@ h6 {
   }
 }
 .forarticle p{ 
-	background-color: #bbb;
+	background-color:antiquewhite;
+	line-height: auto;
+	text-align: justify;
+	box-sizing: border-box;
 }
 .arabicW{
 	text-align: right;
 	margin: 50px;
 	font-size: larger;
+	text-align: center;
+	text-decoration: underline; 
+	background-color: #bbb;
+	padding: 10px;
+}
+.arabicW:hover{
+	background-color: #2ed1a6;
+}
+text{
+	/* text-align: justify;
+	padding: 20px;
+	border: #2ed12e 30px; */
 }
