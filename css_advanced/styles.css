@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.firstSection{
+    background-image: url(Object.png);
+    background-size: auto;
+    background-size: cover;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+.firstSection h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: 100px;
+}
+.lists{
+    display: flex;
+     list-style: none;
+     justify-content: end;
+     color: white;
+    padding: 0;
+
+
+}
+.lists ul li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+    margin-right: 20px;
+    color: rgb(24, 209, 73);
+  
+    
+}
+.spans{
+    display: flex;
+    gap: 100px; 
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.heading{
+    display: block;
+    color: white;
+    border: 10px;
+  margin: 90px auto;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 200%;
+  
+}
+.highlight{ 
+color: #a256d2;
+}
+.imager{
+    border-radius: 90px;
+}
+
+.firstB{
+   
+    background-color: hsl(271, 79%, 67%);
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    border: 10px;
+    display: block;
+  margin: 90px auto;
+  text-align: center;
+  
+   
+    
+}
+
+
+.images{
+   
+    display: flex;               /* makes child images align horizontally */
+    gap: 40px;                  /* space between images */
+    justify-content: space-around; /* spreads images across the container */
+    color: white;
+    margin-top: 200px;
+padding-bottom: 100px;
+
+}
+
+/* 
+.picture{
+display: flex;
+border: 20px;
+
+}
+.quote{
+    background-color: rgb(172, 103, 237);
+     display: flex;
+  align-items: center;    
+  gap: 40px;              
+  padding: 20px;
+    
+}
+.name{
+    display: block;
+
+   }
+.blocq{
+    display: flex;
+    align-items: flex-end;
+
+} */
+ .quote {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(172, 103, 237);
+  padding: 20px;
+  color: white;
+}
+
+.picture {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.blocq {
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.name h3,
+.name p {
+  margin: 0;
+  padding: 10px;
+}
