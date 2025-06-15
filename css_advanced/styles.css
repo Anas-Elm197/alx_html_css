@@ -250,3 +250,63 @@ justify-content: center;
   cursor: pointer;
   font-size: 1rem;
 }
+
+
+
+
+.faq{
+  text-align: center;
+  font-weight: 30;
+  font-size: 60px;
+  padding-top: 30px;
+  font-family: 'Courier';
+}
+.faqs1{
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px; 
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+.faqs1 > div {
+  flex: 0 0 calc(50% - 20px); 
+  box-sizing: border-box;
+}
+
+.divs{
+  color: #a1a1a1;
+  padding-top: 10px;
+  text-align: justify;
+  width: 450px;
+}
+
+
+.footer{
+  background-color: #240a50;
+  /* height: 180px; */
+}
+
+.logo{
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.footer1{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding-right: 100px;
+  color: white;
+  padding-top: 30px;
+  gap: 10px;
+  font-size: 30px;
+}
+.lastP{
+padding-top: 20px;
+text-align: center;
+color: #a1a1a1;
+padding-bottom: 20px;
+}
